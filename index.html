@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio Page </title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+</head>
+<body>
+    <div id="menubar">
+        <a href="#text" class="menu"> home</a>
+        <a href="#ab" class="menu">about</a>
+        <a href="#skills_heading" class="menu">skills</a>
+        <a href="#heading_project" class="menu">projects</a>
+        <a href="#fm" class="menu">contact me</a>
+        <!-- <a href="#fm"> contact me</a> -->
+    </div>
+    <h2>  Portfolio Page</h2>
+    <div  id="text">
+        <span> Hi, <br> i' am <b id="ar">Arbaz khan</b> <br>frontend developer !</span> <br>
+        <a href="https://www.instagram.com/mr.khan_o9dc?igsh=NTVlNzg5bzMybGln">
+            <i class="fa-brands fa-instagram" id="instagram"></i></a> 
+        <a href=" https://wa.me"> 
+            <i class="fa-brands fa-whatsapp" id="whatsapp"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=100051095463286&mibextid=ZbWKwL">
+            <i class="fa-brands fa-facebook" id="facebook"></i></a>
+        <a href="https://www.linkedin.com/in/arbaz-khan-68b732259?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app">
+            <i class="fa-brands fa-linkedin" id="linkedin"></i></a>
+        <a href="http://t.me/arbazkhan800"> <i class="fa-brands fa-telegram" id="telegram"></i></a><br>
+        <button  id="text_button"> download cv</button>
+    </div>
+   
+    <img id="image2" src="image2.jpg" alt=" my picture">
+    <div id="about">
+        
+        <p> <b id="ab">About Me-: </b><br>i am  <b id="arbaz">Arbaz khan</b> <br> i am from  kanpur,
+            currently i am persuing BCA (bachelor of computer application) from Axis institute of higher education  rooma ,kanpur</p>
+            i am a web developer
+            and full stack developement, i learn HTML|| CSS ||
+            JAVASCRIPT , i also learn about MERN  stack developrment<br><br>
+        <button id="about_btn"> contact me</button>
+    </div>
+    
+    
+    <img id="image" src="image1.jpg" alt=" my picture">
+
+    <div id="skills_heading">
+        <h3>  My skills</h3>
+        <p id="skill_text">These are the Technologies , I have worked with</p>
+        </div>
+
+    <div id="box">
+
+        <div class="items">
+            <i class="fa-brands fa-html5"></i> <br>
+            <span class="span">html</span>
+        </div>
+        <div class="items">
+            <i class="fa-brands fa-css3"></i> <br>
+            <span class="span">css</span>
+        </div>
+            
+        <div class="items">
+            <i class="fa-brands fa-cuttlefish"></i> <br>
+            <span class="span"> c language</span>
+        </div>
+        <div class="items">
+            <i class="fa-brands fa-square-js"></i> <br>
+            <span class="span"> java script</span>
+        </div>
+        <div class="items">
+            <i class="fa-brands fa-react"></i> <br>
+            <span class="span">react</span>
+        </div>
+        <div class="items">
+            <i class="fa-brands fa-python"></i> <br>
+            <span class="span">python</span>
+        </div>
+    </div> 
+    <h3 id="heading_project"> Some Of My Recent Project</h3>
+    <div class="project">
+        <div class="box">
+            <img class="project_image" src="project1.png" alt="project image">
+            <h4 class="project_heading"> Sidebar Menu -:</h4>
+            <p class="project_info">This is a sidebar menu of photograph web page using frontend</p>
+            <a  class="project_link" href="#"> check it out</a>
+        </div>
+        <div class="box">
+            <img class="project_image" src="project2.png" alt=" project image">
+            <h4 class="project_heading">Portfolio Page -:</h4>
+            <p class="project_info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis </p>
+            <a class="project_link" href="#"> check it out</a>
+
+        </div>
+        <div class="box">
+            <img class="project_image" src="project3.png" alt=" project image">
+            <h4 class="project_heading">Pricing Things -:</h4>
+            <p class="project_info">This is a pricing card which is show the price of perticular items</p>
+            <a  class="project_link" href="#"> check it out</a>
+        </div>
+    </div>
+    <h3 id="heading_contact">Get In Touch with Me </h3>
+    <div id="contact_section">
+
+        <form id="fm" class="contact_form" action="/server">
+
+            <label for="name">Full name:</label>
+            <input  class="input" type="text" placeholder="Enter your name"  id="name"
+            name="name"> <br> <br>
+
+            <label for="contact"> Contact no :</label>
+            <input class="input" type="number" placeholder=" Enter contact number" id="contact" name="contact"> <br><br>
+
+            <label for="email"> Email:</label>
+            <input class="input" type="email" placeholder="Enter email" id="email" name="email"> <br><br>
+
+            <label for="male"> Male</label>
+            <input class="input" type="radio" id="male" name="gender">
+            <label for="female"> Female</label>
+            <input class="input" type="radio" id="female" name="gender">
+            <br><br>
+
+            <label for="msg"> Address: </label>
+            <textarea class="input" name="msg" id="msg"   placeholder="please Write Your Addres Here !" cols="25" rows="2">  </textarea> <br><br>
+
+            <button class="contact_button" type="submit"> submit info</button>
+            <button class="contact_button" type="reset"> reset info</button>
+
+        </form>
+    <!-- <div class="loder2"></div>
+    <div class="loder1"></div> -->
+    </div>
+    
+</body>
+</html>
